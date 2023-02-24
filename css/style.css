@@ -1,26 +1,51 @@
-body{
-	max-width: 500px;
+body {
+	max-width: 1000px;
 	margin: 0 auto;
-	margin-top: 300px;
+	padding-top: 100px;
+	background-color: #9cd4ff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 100px 20px 0 20px;
 }
 
 .input {
 	border: 5px solid rebeccapurple;
+	border-radius: 30px;
 	padding: 20px;
-	
+	background-color: #7096b3;
+	color: aliceblue;
+	font-weight: 700;
+	margin-bottom: 50px;
 }
+
 button {
 	border: 5px solid rebeccapurple;
 	padding: 20px;
-	
+	border-radius: 30px;
+	background-color: #7096b3;
+	color: aliceblue;
+	font-weight: 700;
+	font-size: 20px;
+	width: 175px;
+	margin-bottom: 50px;
 }
 
-.button  {
+.button {
 	pointer-events: none;
 }
 
 .input {
 	pointer-events: none;
+	height: 140px;
+	font-size: 50px;
+	max-width: 150px;
+}
+
+.input::placeholder {
+	color: aliceblue;
+	font-size: 20px;
+	text-align: center;
 }
 
 .active {
@@ -28,7 +53,13 @@ button {
 }
 
 .text {
-	color: rebeccapurple;
+	color: #000;
 	margin-top: 50px;
 	font-size: 30px;
+	text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
