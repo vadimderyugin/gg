@@ -18,6 +18,7 @@ start.addEventListener('click', () => {
 	input.classList.add('active')
 	body.style.backgroundColor = '#edc966'
 	text.textContent = 'Начинаем! Введи число от 0 до 100'
+	counter = 0
 })
 
 btn.addEventListener('click', () => {
